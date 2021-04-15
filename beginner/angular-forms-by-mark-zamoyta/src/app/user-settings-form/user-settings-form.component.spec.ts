@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { UserSettingsFormComponent } from './user-settings-form.component';
+import { UserSettingsFormComponent } from "./user-settings-form.component";
 
-describe('UserSettingsFormComponent', () => {
+describe("UserSettingsFormComponent", () => {
   let component: UserSettingsFormComponent;
   let fixture: ComponentFixture<UserSettingsFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UserSettingsFormComponent ]
-    })
-    .compileComponents();
+      declarations: [UserSettingsFormComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('UserSettingsFormComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

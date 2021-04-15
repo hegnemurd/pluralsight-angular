@@ -15,7 +15,7 @@ export class DataService {
 
   postUserSettingsForm(userSettings: UserSettings): Observable<any> {
     return this.http.post(
-      "https://putsreq.com/UwuVRXEV7LyQH0Ido52r",
+      "url",
       userSettings
     );
 
