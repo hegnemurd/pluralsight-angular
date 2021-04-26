@@ -1,33 +1,8 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'saa-app',
-  encapsulation: ViewEncapsulation.ShadowDom,
-  template: `
-    <header>
-      <h1>Styling Angular Applications</h1>
-      <em>For Modern Angular Applications</em>
-    </header>
-    <div>
-      <saa-app-nav></saa-app-nav>
-    </div>
-  `,
-  styles: [
-    `
-      body {
-        color: #666;
-        font-family: arial, sans-serif;
-        margin: 0;
-        padding: 1.5em;
-      }
-
-      h1 {
-        color: #2a9fbc;
-        font-size: 200%;
-        line-height: 1;
-        margin: 0.5em 0 0.25em;
-      }
-    `,
-  ],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {}
